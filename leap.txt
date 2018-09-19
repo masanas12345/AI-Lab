@@ -1,0 +1,60 @@
+# for i in range(1,101,3):
+#     print(i)
+
+
+
+
+
+
+# for i in range(100,0,-1):
+#     print(i)
+
+
+#################################
+###### Finding leap year ########
+#################################
+# year = int(input("Enter Year : "))
+# if(year%4 == 0):
+#     if(year%100 == 0):
+#         if(year%400 == 0):
+#             print("The year is a leap year")
+#         else:
+#             print("The year is not a leap year")
+#     else:
+#         print("The year is a leap year")
+# else:
+#     print("The year is not a leap year")
+
+
+#################################
+###### Slicing ########
+#################################
+# name = "Noman islam"
+# s = name[0:10:3]
+# print(s)
+
+
+#################################
+###### inverse string ########
+#################################
+# name = "Noman islam"
+# s = name[::-1]
+# print(s)
+
+
+#################################
+###### inverse string ########
+#################################
+name = "Noman islam1 2"
+countDigit = 0;
+countAlpha = 0;
+for i in name:
+    if(i.isalpha()):
+        print(i)
+        countAlpha += 1;
+    elif(i.isdigit()):
+        print(i)
+        countDigit += 1;
+
+print("total alpha ",countAlpha)
+print("total digits", countDigit)
